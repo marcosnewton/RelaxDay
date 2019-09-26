@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADB12485233C64AA00B36CE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB12484233C64AA00B36CE9 /* AppDelegate.m */; };
+		ADB12488233C64AA00B36CE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB12487233C64AA00B36CE9 /* ViewController.m */; };
+		ADB1248A233C64AD00B36CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB12489233C64AD00B36CE9 /* Assets.xcassets */; };
+		ADB1248D233C64AD00B36CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB1248B233C64AD00B36CE9 /* Main.storyboard */; };
+		ADB12490233C64AD00B36CE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB1248F233C64AD00B36CE9 /* main.m */; };
+		ADB1249B233C64AD00B36CE9 /* RelaxDayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB1249A233C64AD00B36CE9 /* RelaxDayTests.m */; };
+		ADB124A6233C64AD00B36CE9 /* RelaxDayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB124A5233C64AD00B36CE9 /* RelaxDayUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADB12497233C64AD00B36CE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADB12478233C64AA00B36CE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADB1247F233C64AA00B36CE9;
+			remoteInfo = RelaxDay;
+		};
+		ADB124A2233C64AD00B36CE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADB12478233C64AA00B36CE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADB1247F233C64AA00B36CE9;
+			remoteInfo = RelaxDay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADB12480233C64AA00B36CE9 /* RelaxDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelaxDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB12483233C64AA00B36CE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADB12484233C64AA00B36CE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADB12486233C64AA00B36CE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADB12487233C64AA00B36CE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADB12489233C64AD00B36CE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADB1248C233C64AD00B36CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADB1248E233C64AD00B36CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADB1248F233C64AD00B36CE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADB12491233C64AD00B36CE9 /* RelaxDay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RelaxDay.entitlements; sourceTree = "<group>"; };
+		ADB12496233C64AD00B36CE9 /* RelaxDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelaxDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB1249A233C64AD00B36CE9 /* RelaxDayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelaxDayTests.m; sourceTree = "<group>"; };
+		ADB1249C233C64AD00B36CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADB124A1233C64AD00B36CE9 /* RelaxDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelaxDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB124A5233C64AD00B36CE9 /* RelaxDayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelaxDayUITests.m; sourceTree = "<group>"; };
+		ADB124A7233C64AD00B36CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADB1247D233C64AA00B36CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB12493233C64AD00B36CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB1249E233C64AD00B36CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADB12477233C64AA00B36CE9 = {
+			isa = PBXGroup;
+			children = (
+				ADB12482233C64AA00B36CE9 /* RelaxDay */,
+				ADB12499233C64AD00B36CE9 /* RelaxDayTests */,
+				ADB124A4233C64AD00B36CE9 /* RelaxDayUITests */,
+				ADB12481233C64AA00B36CE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADB12481233C64AA00B36CE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADB12480233C64AA00B36CE9 /* RelaxDay.app */,
+				ADB12496233C64AD00B36CE9 /* RelaxDayTests.xctest */,
+				ADB124A1233C64AD00B36CE9 /* RelaxDayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADB12482233C64AA00B36CE9 /* RelaxDay */ = {
+			isa = PBXGroup;
+			children = (
+				ADB12483233C64AA00B36CE9 /* AppDelegate.h */,
+				ADB12484233C64AA00B36CE9 /* AppDelegate.m */,
+				ADB12486233C64AA00B36CE9 /* ViewController.h */,
+				ADB12487233C64AA00B36CE9 /* ViewController.m */,
+				ADB12489233C64AD00B36CE9 /* Assets.xcassets */,
+				ADB1248B233C64AD00B36CE9 /* Main.storyboard */,
+				ADB1248E233C64AD00B36CE9 /* Info.plist */,
+				ADB1248F233C64AD00B36CE9 /* main.m */,
+				ADB12491233C64AD00B36CE9 /* RelaxDay.entitlements */,
+			);
+			path = RelaxDay;
+			sourceTree = "<group>";
+		};
+		ADB12499233C64AD00B36CE9 /* RelaxDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADB1249A233C64AD00B36CE9 /* RelaxDayTests.m */,
+				ADB1249C233C64AD00B36CE9 /* Info.plist */,
+			);
+			path = RelaxDayTests;
+			sourceTree = "<group>";
+		};
+		ADB124A4233C64AD00B36CE9 /* RelaxDayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADB124A5233C64AD00B36CE9 /* RelaxDayUITests.m */,
+				ADB124A7233C64AD00B36CE9 /* Info.plist */,
+			);
+			path = RelaxDayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADB1247F233C64AA00B36CE9 /* RelaxDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB124AA233C64AD00B36CE9 /* Build configuration list for PBXNativeTarget "RelaxDay" */;
+			buildPhases = (
+				ADB1247C233C64AA00B36CE9 /* Sources */,
+				ADB1247D233C64AA00B36CE9 /* Frameworks */,
+				ADB1247E233C64AA00B36CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RelaxDay;
+			productName = RelaxDay;
+			productReference = ADB12480233C64AA00B36CE9 /* RelaxDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADB12495233C64AD00B36CE9 /* RelaxDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB124AD233C64AD00B36CE9 /* Build configuration list for PBXNativeTarget "RelaxDayTests" */;
+			buildPhases = (
+				ADB12492233C64AD00B36CE9 /* Sources */,
+				ADB12493233C64AD00B36CE9 /* Frameworks */,
+				ADB12494233C64AD00B36CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADB12498233C64AD00B36CE9 /* PBXTargetDependency */,
+			);
+			name = RelaxDayTests;
+			productName = RelaxDayTests;
+			productReference = ADB12496233C64AD00B36CE9 /* RelaxDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADB124A0233C64AD00B36CE9 /* RelaxDayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB124B0233C64AD00B36CE9 /* Build configuration list for PBXNativeTarget "RelaxDayUITests" */;
+			buildPhases = (
+				ADB1249D233C64AD00B36CE9 /* Sources */,
+				ADB1249E233C64AD00B36CE9 /* Frameworks */,
+				ADB1249F233C64AD00B36CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADB124A3233C64AD00B36CE9 /* PBXTargetDependency */,
+			);
+			name = RelaxDayUITests;
+			productName = RelaxDayUITests;
+			productReference = ADB124A1233C64AD00B36CE9 /* RelaxDayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADB12478233C64AA00B36CE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = infoVip;
+				TargetAttributes = {
+					ADB1247F233C64AA00B36CE9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					ADB12495233C64AD00B36CE9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ADB1247F233C64AA00B36CE9;
+					};
+					ADB124A0233C64AD00B36CE9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ADB1247F233C64AA00B36CE9;
+					};
+				};
+			};
+			buildConfigurationList = ADB1247B233C64AA00B36CE9 /* Build configuration list for PBXProject "RelaxDay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADB12477233C64AA00B36CE9;
+			productRefGroup = ADB12481233C64AA00B36CE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADB1247F233C64AA00B36CE9 /* RelaxDay */,
+				ADB12495233C64AD00B36CE9 /* RelaxDayTests */,
+				ADB124A0233C64AD00B36CE9 /* RelaxDayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADB1247E233C64AA00B36CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB1248A233C64AD00B36CE9 /* Assets.xcassets in Resources */,
+				ADB1248D233C64AD00B36CE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB12494233C64AD00B36CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB1249F233C64AD00B36CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADB1247C233C64AA00B36CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB12488233C64AA00B36CE9 /* ViewController.m in Sources */,
+				ADB12490233C64AD00B36CE9 /* main.m in Sources */,
+				ADB12485233C64AA00B36CE9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB12492233C64AD00B36CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB1249B233C64AD00B36CE9 /* RelaxDayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB1249D233C64AD00B36CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB124A6233C64AD00B36CE9 /* RelaxDayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADB12498233C64AD00B36CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADB1247F233C64AA00B36CE9 /* RelaxDay */;
+			targetProxy = ADB12497233C64AD00B36CE9 /* PBXContainerItemProxy */;
+		};
+		ADB124A3233C64AD00B36CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADB1247F233C64AA00B36CE9 /* RelaxDay */;
+			targetProxy = ADB124A2233C64AD00B36CE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADB1248B233C64AD00B36CE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADB1248C233C64AD00B36CE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADB124A8233C64AD00B36CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ADB124A9233C64AD00B36CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ADB124AB233C64AD00B36CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RelaxDay/RelaxDay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RelaxDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RelaxDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADB124AC233C64AD00B36CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RelaxDay/RelaxDay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RelaxDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RelaxDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADB124AE233C64AD00B36CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RelaxDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RelaxDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RelaxDay.app/Contents/MacOS/RelaxDay";
+			};
+			name = Debug;
+		};
+		ADB124AF233C64AD00B36CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RelaxDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RelaxDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RelaxDay.app/Contents/MacOS/RelaxDay";
+			};
+			name = Release;
+		};
+		ADB124B1233C64AD00B36CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RelaxDayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RelaxDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RelaxDay;
+			};
+			name = Debug;
+		};
+		ADB124B2233C64AD00B36CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RelaxDayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RelaxDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RelaxDay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADB1247B233C64AA00B36CE9 /* Build configuration list for PBXProject "RelaxDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB124A8233C64AD00B36CE9 /* Debug */,
+				ADB124A9233C64AD00B36CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB124AA233C64AD00B36CE9 /* Build configuration list for PBXNativeTarget "RelaxDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB124AB233C64AD00B36CE9 /* Debug */,
+				ADB124AC233C64AD00B36CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB124AD233C64AD00B36CE9 /* Build configuration list for PBXNativeTarget "RelaxDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB124AE233C64AD00B36CE9 /* Debug */,
+				ADB124AF233C64AD00B36CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB124B0233C64AD00B36CE9 /* Build configuration list for PBXNativeTarget "RelaxDayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB124B1233C64AD00B36CE9 /* Debug */,
+				ADB124B2233C64AD00B36CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADB12478233C64AA00B36CE9 /* Project object */;
+}
